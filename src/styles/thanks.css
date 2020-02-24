@@ -1,0 +1,11 @@
+body {
+  background: rgb(67, 67, 67);
+}
+
+.thanks {
+  background: rgb(67, 67, 67);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
