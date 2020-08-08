@@ -24,11 +24,12 @@ code {
 
 .container {
   width: 600px;
-  background: rgb(67, 67, 67);
+  background: lightgrey;
   display: flex;
   flex-direction: column;
   padding: 100px;
   color: white;
+  align-self: center;
 }
 
 input {
@@ -44,12 +45,13 @@ button {
   width: 200px;
   height: 30px;
   background: transparent;
-  border: white solid 1px;
+  border: white solid 2px;
   outline: none;
 }
 
 form {
   line-height: 2;
+  align-items: center;
 }
 
 .error {
